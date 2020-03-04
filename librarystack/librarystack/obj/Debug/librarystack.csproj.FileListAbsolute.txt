@@ -1,0 +1,13 @@
+C:\Users\benj6414\source\repos\librarystack\librarystack\bin\Debug\librarystack.exe.config
+C:\Users\benj6414\source\repos\librarystack\librarystack\bin\Debug\librarystack.exe
+C:\Users\benj6414\source\repos\librarystack\librarystack\bin\Debug\librarystack.pdb
+C:\Users\benj6414\source\repos\librarystack\librarystack\obj\Debug\librarystack.csprojAssemblyReference.cache
+C:\Users\benj6414\source\repos\librarystack\librarystack\obj\Debug\librarystack.exe
+C:\Users\benj6414\source\repos\librarystack\librarystack\obj\Debug\librarystack.pdb
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\librarystack\librarystack\bin\Debug\librarystack.exe.config
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\librarystack\librarystack\bin\Debug\librarystack.exe
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\librarystack\librarystack\bin\Debug\librarystack.pdb
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\librarystack\librarystack\obj\Debug\librarystack.csprojAssemblyReference.cache
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\librarystack\librarystack\obj\Debug\librarystack.csproj.CoreCompileInputs.cache
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\librarystack\librarystack\obj\Debug\librarystack.exe
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\librarystack\librarystack\obj\Debug\librarystack.pdb
