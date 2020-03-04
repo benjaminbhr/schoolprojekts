@@ -1,0 +1,13 @@
+C:\Users\benj6414\source\repos\geometriopga\geometriopga\bin\Debug\geometriopga.exe.config
+C:\Users\benj6414\source\repos\geometriopga\geometriopga\bin\Debug\geometriopga.exe
+C:\Users\benj6414\source\repos\geometriopga\geometriopga\bin\Debug\geometriopga.pdb
+C:\Users\benj6414\source\repos\geometriopga\geometriopga\obj\Debug\geometriopga.csprojAssemblyReference.cache
+C:\Users\benj6414\source\repos\geometriopga\geometriopga\obj\Debug\geometriopga.exe
+C:\Users\benj6414\source\repos\geometriopga\geometriopga\obj\Debug\geometriopga.pdb
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\bin\Debug\geometriopga.exe.config
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\bin\Debug\geometriopga.exe
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\bin\Debug\geometriopga.pdb
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\obj\Debug\geometriopga.csprojAssemblyReference.cache
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\obj\Debug\geometriopga.csproj.CoreCompileInputs.cache
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\obj\Debug\geometriopga.exe
+C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\obj\Debug\geometriopga.pdb
