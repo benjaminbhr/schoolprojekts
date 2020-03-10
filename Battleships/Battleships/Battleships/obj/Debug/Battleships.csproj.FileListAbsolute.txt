@@ -1,0 +1,6 @@
+C:\Users\benj6414\source\repos\Battleships\Battleships\bin\Debug\Battleships.exe.config
+C:\Users\benj6414\source\repos\Battleships\Battleships\bin\Debug\Battleships.exe
+C:\Users\benj6414\source\repos\Battleships\Battleships\bin\Debug\Battleships.pdb
+C:\Users\benj6414\source\repos\Battleships\Battleships\obj\Debug\Battleships.csprojAssemblyReference.cache
+C:\Users\benj6414\source\repos\Battleships\Battleships\obj\Debug\Battleships.exe
+C:\Users\benj6414\source\repos\Battleships\Battleships\obj\Debug\Battleships.pdb
