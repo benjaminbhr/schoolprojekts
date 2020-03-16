@@ -1,0 +1,6 @@
+C:\Users\benj6414\source\repos\VendingMachine\VendingMachine\obj\Debug\VendingMachine.csprojAssemblyReference.cache
+C:\Users\benj6414\source\repos\VendingMachine\VendingMachine\bin\Debug\VendingMachine.exe.config
+C:\Users\benj6414\source\repos\VendingMachine\VendingMachine\bin\Debug\VendingMachine.exe
+C:\Users\benj6414\source\repos\VendingMachine\VendingMachine\bin\Debug\VendingMachine.pdb
+C:\Users\benj6414\source\repos\VendingMachine\VendingMachine\obj\Debug\VendingMachine.exe
+C:\Users\benj6414\source\repos\VendingMachine\VendingMachine\obj\Debug\VendingMachine.pdb
