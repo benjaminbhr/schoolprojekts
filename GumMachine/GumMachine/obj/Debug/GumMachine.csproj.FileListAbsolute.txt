@@ -1,0 +1,7 @@
+C:\Users\benja\source\repos\GumMachine\GumMachine\bin\Debug\GumMachine.exe.config
+C:\Users\benja\source\repos\GumMachine\GumMachine\bin\Debug\GumMachine.exe
+C:\Users\benja\source\repos\GumMachine\GumMachine\bin\Debug\GumMachine.pdb
+C:\Users\benja\source\repos\GumMachine\GumMachine\obj\Debug\GumMachine.csprojAssemblyReference.cache
+C:\Users\benja\source\repos\GumMachine\GumMachine\obj\Debug\GumMachine.csproj.CoreCompileInputs.cache
+C:\Users\benja\source\repos\GumMachine\GumMachine\obj\Debug\GumMachine.exe
+C:\Users\benja\source\repos\GumMachine\GumMachine\obj\Debug\GumMachine.pdb
