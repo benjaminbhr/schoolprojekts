@@ -23,18 +23,23 @@ namespace GumMachine
             return tempgum;
         }
 
-        /// <summary>
-        /// Machine constructor is private so it can't be accessed in other classes to be used forexamble for instanciating.
-        /// </summary>
+        private static Dispenser instance;
+
         private Dispenser()
         {
         }
 
-        //This is the created instance, since Machine ctor is private, and there's only a Get on the Instance prop, it will only be possible to create new instances of Machine from inside this Machine class.
-        internal static readonly Dispenser instance = new Dispenser();
-
-        //This is a prop of type Machine, which returns instance
-        public static Dispenser Instance { get { return instance; } }
+        public static Dispenser Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new Dispenser();
+                }
+                return instance;
+            }
+        }
 
     }
 }

@@ -52,15 +52,23 @@ namespace GumMachine
                 }
             }
         }
-        //This is the created instance, since Machine ctor is private, and there's only a Get on the Instance prop, it will only be possible to create new instances of Machine from inside this Machine class.
-        internal static readonly GumStorage instance = new GumStorage();
+        private static GumStorage instance;
 
-        //This is a prop of type Machine, which returns instance
-        public static GumStorage Instance { get { return instance; } }
-
-        public GumStorage()
+        private GumStorage()
         {
             OrderGum();
+        }
+
+        public static GumStorage Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new GumStorage();
+                }
+                return instance;
+            }
         }
     }
 }
