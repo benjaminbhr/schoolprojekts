@@ -1,0 +1,7 @@
+C:\Users\benja\source\repos\MovieNight\MovieNight\bin\Debug\MovieNight.exe.config
+C:\Users\benja\source\repos\MovieNight\MovieNight\bin\Debug\MovieNight.exe
+C:\Users\benja\source\repos\MovieNight\MovieNight\bin\Debug\MovieNight.pdb
+C:\Users\benja\source\repos\MovieNight\MovieNight\obj\Debug\MovieNight.csprojAssemblyReference.cache
+C:\Users\benja\source\repos\MovieNight\MovieNight\obj\Debug\MovieNight.csproj.CoreCompileInputs.cache
+C:\Users\benja\source\repos\MovieNight\MovieNight\obj\Debug\MovieNight.exe
+C:\Users\benja\source\repos\MovieNight\MovieNight\obj\Debug\MovieNight.pdb
