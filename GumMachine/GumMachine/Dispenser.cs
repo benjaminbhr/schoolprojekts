@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace GumMachine
 {
+    //Hvorfor er klassen sat til at være sealed? Hvad betyder det?
+    //Fint at du har benyttet en singleton
     public sealed class Dispenser
     {
         public List<Gum> gums = new List<Gum>();
