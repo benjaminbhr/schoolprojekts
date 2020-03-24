@@ -8,8 +8,10 @@ namespace GumMachine
 {
     public class GumStorage
     {
+        //Jeg mangler generelt kommentar
         public List<Gum> gumStorage = new List<Gum>();
 
+        //Hvorfor er denne metode public? Giver det mening at andre kan bruge metoden?
         public void OrderGum()
         {
             int applecount = 0;
