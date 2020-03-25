@@ -1,0 +1,7 @@
+C:\Users\benja\source\repos\Diablo\Diablo\bin\Debug\Diablo.exe.config
+C:\Users\benja\source\repos\Diablo\Diablo\bin\Debug\Diablo.exe
+C:\Users\benja\source\repos\Diablo\Diablo\bin\Debug\Diablo.pdb
+C:\Users\benja\source\repos\Diablo\Diablo\obj\Debug\Diablo.csprojAssemblyReference.cache
+C:\Users\benja\source\repos\Diablo\Diablo\obj\Debug\Diablo.csproj.CoreCompileInputs.cache
+C:\Users\benja\source\repos\Diablo\Diablo\obj\Debug\Diablo.exe
+C:\Users\benja\source\repos\Diablo\Diablo\obj\Debug\Diablo.pdb
