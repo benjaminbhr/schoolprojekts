@@ -8,11 +8,20 @@ namespace Diablo
 {
     public class WeaponFactory
     {
+        //This is so my number generator doesn't use the same seed, so i've made a single instance of GetRandom to ensure i get random numbers.
         private Random GetRandom { get; set; }
         private int RandomNumber()
         {
             return this.GetRandom.Next(0, 14);
         }
+
+        /// <summary>
+        /// This method is responsible for creating the different weapons, it takes a type,rarity,name and will then form a weapon randomly from the properties allowed for that rarity.
+        /// </summary>
+        /// <param name="type">Weapon Type</param>
+        /// <param name="rarity">Rarity type</param>
+        /// <param name="name">Weapon name</param>
+        /// <returns>Weapon object</returns>
         public Weapons.Weapon Create(EWeaponType type, ERarityType rarity,string name)
         {
             if (rarity == ERarityType.normal)

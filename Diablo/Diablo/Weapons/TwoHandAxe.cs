@@ -8,6 +8,7 @@ namespace Diablo.Weapons
 {
     class TwoHandAxe:Axe
     {
+		// This list will hold the modifiers put on the weapon when it gets instanciated from the factory.
 		public List<string> magic = new List<string>();
 		private int distance;
 
@@ -22,6 +23,10 @@ namespace Diablo.Weapons
 			this.Distance = distance;
 		}
 
+		/// <summary>
+		/// String builder for the properties in the list, and also the properties from this class, and the base class.
+		/// </summary>
+		/// <returns>string</returns>
 		public override string ToString()
 		{
 			StringBuilder st = new StringBuilder();

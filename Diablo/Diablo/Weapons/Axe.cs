@@ -8,6 +8,7 @@ namespace Diablo.Weapons
 {
     public class Axe:Weapon
     {
+        //This list contains all the predefined magic props that an axe can have.
         public List<string> magicproperties = new List<string>();
         private string name;
 
@@ -25,8 +26,9 @@ namespace Diablo.Weapons
             set { damage = value; }
         }
 
-        private EWeaponType eweapon;
 
+        private EWeaponType eweapon;
+        //This gets and sets the Weapon type of the weapon from the enum name EWeaponType
         public override EWeaponType EWeapon { get => eweapon; set => eweapon = value; }
 
         public Axe(int damage,string name)
@@ -49,6 +51,7 @@ namespace Diablo.Weapons
             magicproperties.Add("Sockets 1");
             magicproperties.Add("Chance to Inflict Bleed for 10% Weapon Damage over 10 Seconds");
         }
+
 
         public override string ToString()
         {

@@ -3,30 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.ComponentModel;
 
 namespace Diablo
 {
     class Program
     {
-        public static void PrintProperties(object obj)
-        {
-            foreach (PropertyDescriptor descriptor in TypeDescriptor.GetProperties(obj))
-            {
-                string name = descriptor.Name;
-                object value = descriptor.GetValue(obj);
-                string zerovalue = value.ToString();
-                if (zerovalue != "0")
-                {
-                    Console.WriteLine("{0}: {1}", name, value);
-                }
-                else
-                {
-
-                }
-            }
-            Console.WriteLine("\n");
-        }
         static void Main(string[] args)
         {
             List<Weapons.Weapon> weapons = new List<Weapons.Weapon>();
