@@ -1,0 +1,7 @@
+C:\Users\benja\source\repos\WMI\WMI\bin\Debug\WMI.exe.config
+C:\Users\benja\source\repos\WMI\WMI\bin\Debug\WMI.exe
+C:\Users\benja\source\repos\WMI\WMI\bin\Debug\WMI.pdb
+C:\Users\benja\source\repos\WMI\WMI\obj\Debug\WMI.csprojAssemblyReference.cache
+C:\Users\benja\source\repos\WMI\WMI\obj\Debug\WMI.csproj.CoreCompileInputs.cache
+C:\Users\benja\source\repos\WMI\WMI\obj\Debug\WMI.exe
+C:\Users\benja\source\repos\WMI\WMI\obj\Debug\WMI.pdb
