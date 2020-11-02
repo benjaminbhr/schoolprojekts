@@ -38,7 +38,6 @@ namespace geometriopga
             if (anglea + angleb + anglec == 180 && anglea == 90 | angleb == 90 | anglec == 90)
             {
                 TriangleType = ETriangleType.Right;
-                this.TriangleType = ETriangleType.Right;
                 return true;
             }
             else if (Angle_a == 90 && Angle_b == 90 | Angle_a == 90 && Angle_c == 90 | Angle_c == 90 && Angle_b == 90)
