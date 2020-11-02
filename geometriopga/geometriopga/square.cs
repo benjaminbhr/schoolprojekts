@@ -13,7 +13,6 @@ namespace geometriopga
         public virtual double Side_a
         {
             get { return side_a; }
-            set { side_a = value; }
         }
 
         private ESquareType squareType;
@@ -28,7 +27,7 @@ namespace geometriopga
 
         public Square(double sidea)
         {
-            this.Side_a = sidea;
+            this.side_a = sidea;
             this.Shape = EShapeType.square;
             this.Squaretype = ESquareType.square;
         }

@@ -13,14 +13,14 @@ namespace geometriopga
         public double Side_b
         {
             get { return side_b; }
-            set { side_b = value; }
+            private set { side_b = value; }
         }
         private double side_c;
 
         public double Side_c
         {
             get { return side_c; }
-            set { side_c = value; }
+            private set { side_c = value; }
         }
 
 
@@ -29,13 +29,14 @@ namespace geometriopga
         public double Side_d
         {
             get { return side_d; }
-            set { side_d = value; }
+            private set { side_d = value; }
         }
 
         public double CalcHeight()
         {
             double s_value = (this.Side_a + Side_b - Side_c + Side_d) / 2;
-            return (Side_a - Side_c) / 2 * (Math.Sqrt(s_value * (s_value - Side_a + Side_c) * (s_value - Side_b) * (s_value - Side_d)));
+            double height = 2 / (Side_a - Side_c) * (Math.Sqrt(s_value * (s_value - Side_a + Side_c) * (s_value - Side_b) * (s_value - Side_d)));
+            return height;
         }
         
         public override double SquareArea()

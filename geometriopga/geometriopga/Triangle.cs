@@ -17,26 +17,27 @@ namespace geometriopga
 		}
 
 
-		private double side_a;
+
+        private double side_a;
 
 		public double Side_a
 		{
 			get { return side_a; }
-			set { side_a = value; }
+			protected set { side_a = value; }
 		}
 		private double side_b;
 
 		public double Side_b
 		{
 			get { return side_b; }
-			set { side_b = value; }
+			protected set { side_b = value; }
 		}
 		private double side_c;
 
 		public double Side_c
 		{
 			get { return side_c; }
-			set { side_c = value; }
+			protected set { side_c = value; }
 		}
 
 		private double angle_a;
@@ -44,7 +45,7 @@ namespace geometriopga
 		public double Angle_a
 		{
 			get { return angle_a; }
-			set { angle_a = value; }
+			protected set { angle_a = value; }
 		}
 
 		private double angle_b;
@@ -52,7 +53,7 @@ namespace geometriopga
 		public double Angle_b
 		{
 			get { return angle_b; }
-			set { angle_b = value; }
+			protected set { angle_b = value; }
 		}
 
 		private double angle_c;
@@ -60,7 +61,7 @@ namespace geometriopga
 		public double Angle_c
 		{
 			get { return angle_c; }
-			set { angle_c = value; }
+			protected set { angle_c = value; }
 		}
 
         /// <summary>
@@ -95,46 +96,35 @@ namespace geometriopga
         /// <summary>
         /// Calculates the side C based on side A and side B
         /// </summary>
-		public void CalcSideC()
-		{
-			double temp_c = Math.Pow(Angle_a, 2) * Math.Pow(Angle_b, 2);
-			this.Angle_c = Math.Pow(temp_c, 2);
+		protected void CalcSideC()
+        {
+            double tempc = Math.Sqrt(Math.Pow(side_a, 2) + Math.Pow(side_b, 2));
+			this.Side_c = tempc;
 		}
 
 
-        /// <summary>
-        /// This constructor assigns the values from the parameters to the correct props, 
-        /// but it also checks if the triangle being made meets the requirements of a triangle, and sends an exception if it doesn't
-        /// </summary>
-        /// <param name="sidea"></param>
-        /// <param name="sideb"></param>
-        /// <param name="anglea"></param>
-        /// <param name="angleb"></param>
-        /// <param name="anglec"></param>
+		/// <summary>
+		/// This constructor assigns the values from the parameters to the correct props, 
+		/// but it also checks if the triangle being made meets the requirements of a triangle, and sends an exception if it doesn't
+		/// </summary>
+		/// <param name="sidea"></param>
+		/// <param name="sideb"></param>
+		/// <param name="anglea"></param>
+		/// <param name="angleb"></param>
+		/// <param name="anglec"></param>
 		public Triangle(double sidea, double sideb, double anglea, double angleb, double anglec)
-		{
-			this.Side_a = sidea;
-			this.Side_b = sideb;
-			this.Angle_a = anglea;
-			this.Angle_b = angleb;
-			this.Shape = EShapeType.triangle;
+        {
+            this.Side_a = sidea;
+            this.Side_b = sideb;
+            this.Angle_a = anglea;
+            this.Angle_b = angleb;
+            this.Shape = EShapeType.triangle;
+			CalcSideC();
+        }
 
-			if (anglea + angleb + anglec == 180 && anglea == 90 | angleb == 90 | anglec == 90)
-			{
-				TriangleType = ETriangleType.Right;
-				this.TriangleType = ETriangleType.Right;
-			}
-			else if (Angle_a == 90 && Angle_b == 90 | Angle_a == 90 && Angle_c == 90 | Angle_c == 90 && Angle_b == 90)
-			{
-				throw new Exception("This form is not a triangle!");
-			}
-			else
-			{
-				throw new Exception("This form is not a triangle!");
-			}
-		}
-
-
-
-	}
+        public Triangle()
+        {
+            this.Shape = EShapeType.triangle;
+        }
+    }
 }

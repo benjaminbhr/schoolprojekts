@@ -14,7 +14,7 @@ namespace geometriopga
             //This is where i "try" to instanciate all my objects and add them to the list.
             try
             {
-                Triangle right_triangle = new Triangle(50, 10, 45,45,90);
+                Triangle right_triangle = new RightTriangle(50, 10, 45,45,90);
                 Square square = new Square(5);
                 Parallelogram parallelogram = new Parallelogram(3, 5, 20);
                 Trapez trapez = new Trapez(10, 8, 9, 9);
@@ -84,8 +84,7 @@ namespace geometriopga
                     //This switch statement is made on every type in the Enum "ETriangleType" which means 
                     //now if we add more Triangle of different types, they will always be listed with the right dimensions etc
                     Triangle triangle_cast = ((Triangle)shape);
-                    ETriangleType temp_triangle = ((Triangle)shape).TriangleType;
-                    switch (temp_triangle)
+                    switch (triangle_cast.TriangleType)
                     {
                         case ETriangleType.None:
                             Console.WriteLine("This isn't a triangle!");

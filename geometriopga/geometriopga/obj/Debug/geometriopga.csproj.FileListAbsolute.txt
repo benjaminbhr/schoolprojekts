@@ -11,3 +11,10 @@ C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\obj\Debu
 C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\obj\Debug\geometriopga.csproj.CoreCompileInputs.cache
 C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\obj\Debug\geometriopga.exe
 C:\Users\benja\Desktop\Skole opgaver\H1 Start\geometriopga\geometriopga\obj\Debug\geometriopga.pdb
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\geometriopga\bin\Debug\geometriopga.exe.config
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\geometriopga\bin\Debug\geometriopga.exe
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\geometriopga\bin\Debug\geometriopga.pdb
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\geometriopga\obj\Debug\geometriopga.csprojAssemblyReference.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\geometriopga\obj\Debug\geometriopga.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\geometriopga\obj\Debug\geometriopga.exe
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\geometriopga\obj\Debug\geometriopga.pdb
