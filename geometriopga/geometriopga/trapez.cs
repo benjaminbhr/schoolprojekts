@@ -39,7 +39,7 @@ namespace geometriopga
             return height;
         }
         
-        public override double SquareArea()
+        public override double Area()
         {
             return (Side_a + Side_c) * CalcHeight() / 2;
         }

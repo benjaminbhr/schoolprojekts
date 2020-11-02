@@ -22,7 +22,7 @@ namespace geometriopga
             this.Side_b = sideb;
         }
 
-        public override double SquareArea()
+        public override double Area()
         {
             return Side_a * this.Side_b;
         }

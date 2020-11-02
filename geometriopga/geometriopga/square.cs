@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace geometriopga
 {
-    public class Square:Shapes
+    public class Square:Shape
     {
         private double side_a;
 
@@ -28,7 +28,7 @@ namespace geometriopga
         public Square(double sidea)
         {
             this.side_a = sidea;
-            this.Shape = EShapeType.square;
+            this.Shape_Type = EShapeType.square;
             this.Squaretype = ESquareType.square;
         }
 
@@ -37,7 +37,7 @@ namespace geometriopga
         {
             return this.side_a * 3;
         }
-        public virtual double SquareArea()
+        public override double Area()
         {
             return side_a * side_a;
         }

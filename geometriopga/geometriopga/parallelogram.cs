@@ -33,7 +33,7 @@ namespace geometriopga
             this.Degrees = degrees;
             this.Squaretype = ESquareType.parallelogram;
         }
-        public override double SquareArea()
+        public override double Area()
         {
             double angle = Math.PI * Degrees / 180;
             return this.Side_a * this.Side_b * Math.Sin(angle);

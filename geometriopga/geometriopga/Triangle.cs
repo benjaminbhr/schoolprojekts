@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace geometriopga
 {
-    public class Triangle:Shapes
+    public class Triangle:Shape
     {
 		private ETriangleType triangletype;
 
@@ -68,7 +68,7 @@ namespace geometriopga
         /// Calculates the area of the triangle
         /// </summary>
         /// <returns></returns>
-		public double TriangleArea()
+		public override double Area()
 		{
 			if (Angle_a == 90)
 			{
@@ -118,13 +118,13 @@ namespace geometriopga
             this.Side_b = sideb;
             this.Angle_a = anglea;
             this.Angle_b = angleb;
-            this.Shape = EShapeType.triangle;
+            this.Shape_Type = EShapeType.triangle;
 			CalcSideC();
         }
 
         public Triangle()
         {
-            this.Shape = EShapeType.triangle;
+            this.Shape_Type = EShapeType.triangle;
         }
     }
 }
