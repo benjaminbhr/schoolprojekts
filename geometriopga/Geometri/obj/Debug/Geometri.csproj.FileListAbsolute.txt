@@ -5,3 +5,10 @@ C:\Users\Benjamin\source\repos\Geometri\Geometri\obj\Debug\Geometri.csprojAssemb
 C:\Users\Benjamin\source\repos\Geometri\Geometri\obj\Debug\Geometri.csproj.CoreCompileInputs.cache
 C:\Users\Benjamin\source\repos\Geometri\Geometri\obj\Debug\Geometri.exe
 C:\Users\Benjamin\source\repos\Geometri\Geometri\obj\Debug\Geometri.pdb
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\Geometri\bin\Debug\Geometri.exe.config
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\Geometri\bin\Debug\Geometri.exe
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\Geometri\bin\Debug\Geometri.pdb
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\Geometri\obj\Debug\Geometri.csprojAssemblyReference.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\Geometri\obj\Debug\Geometri.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\Geometri\obj\Debug\Geometri.exe
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts2\geometriopga\Geometri\obj\Debug\Geometri.pdb

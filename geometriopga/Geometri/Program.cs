@@ -29,32 +29,38 @@ namespace Geometri
                     case "Square":
                         var squareCast = ((Square)shape);
                         Console.WriteLine("This is a square!");
+                        Console.WriteLine($"These are the dimensions a={squareCast.Side_a}cm");
                         Console.WriteLine($"This Square's area is = {shape.Area()}cm2");
                         Console.WriteLine($"This Square's Perimeter is = {shape.Perimeter()}cm\n");
                         break;
                     case "Rectangle":
                         var rectangleCast = ((Rectangle)shape);
                         Console.WriteLine("This is a Rectangle!");
+                        Console.WriteLine($"These are the dimensions a={rectangleCast.Side_a}cm b={rectangleCast.Side_b}cm");
                         Console.WriteLine($"This Rectangle's area is = {shape.Area()}cm2");
                         Console.WriteLine($"This Rectangle's Perimeter is = {shape.Perimeter()}cm\n");
                         break;
                     case "Parallelogram":
                         var parallelCast = ((Parallelogram)shape);
                         Console.WriteLine("This is a Parallelogram!");
-                        Console.WriteLine($"This Parallelogram's area is = {shape.Area()}cm2");
+                        Console.WriteLine($"These are the dimensions a={parallelCast.Side_a}cm b={parallelCast.Side_b}cm inclination={parallelCast.Inclination}degrees");
+                        Console.WriteLine($"This Parallelogram's area is = {Math.Round(shape.Area(),3)}cm2");
                         Console.WriteLine($"This Parallelogram's Perimeter is = {shape.Perimeter()}cm\n");
                         break;
                     case "Trapezoid":
                         var trapezCast = ((Trapezoid)shape);
                         Console.WriteLine("This is a Trapezoid");
-                        Console.WriteLine($"This Trapezoid's area is = {shape.Area()}cm2");
+                        Console.WriteLine($"These are the dimensions a={trapezCast.Side_a}cm b={trapezCast.Side_b}cm c={trapezCast.Side_c}cm d={trapezCast.Side_d}cm");
+                        Console.WriteLine($"This Trapezoid's area is = {Math.Round(shape.Area(),3)}cm2");
                         Console.WriteLine($"This Trapezoid's perimeter is = {shape.Perimeter()}cm\n");
                         break;
                     case "RightAngledTriangle":
                         var rightangleCast = ((RightAngledTriangle)shape);
                         Console.WriteLine("This is a Right Angled Triangle!");
+                        Console.WriteLine($"These are the dimensions a={rightangleCast.Side_a}cm b={rightangleCast.Side_b}cm c={Math.Round(rightangleCast.Side_c,3)}cm");
+                        Console.WriteLine($"These are the angles a={Math.Round(rightangleCast.AngleA(),2)}degrees b={Math.Round(rightangleCast.AngleB(),2)}degrees");
                         Console.WriteLine($"This Triangle's area is = {shape.Area()}cm2");
-                        Console.WriteLine($"This Triangle's perimeter is = {shape.Perimeter()}cm\n");
+                        Console.WriteLine($"This Triangle's perimeter is = {Math.Round(shape.Perimeter(),3)}cm\n");
                         break;
                     default:
                         break;
