@@ -1,0 +1,7 @@
+C:\Users\Benjamin Roesdal\source\repos\MyBanker\MyBanker\bin\Debug\MyBanker.exe.config
+C:\Users\Benjamin Roesdal\source\repos\MyBanker\MyBanker\bin\Debug\MyBanker.exe
+C:\Users\Benjamin Roesdal\source\repos\MyBanker\MyBanker\bin\Debug\MyBanker.pdb
+C:\Users\Benjamin Roesdal\source\repos\MyBanker\MyBanker\obj\Debug\MyBanker.csprojAssemblyReference.cache
+C:\Users\Benjamin Roesdal\source\repos\MyBanker\MyBanker\obj\Debug\MyBanker.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\MyBanker\MyBanker\obj\Debug\MyBanker.exe
+C:\Users\Benjamin Roesdal\source\repos\MyBanker\MyBanker\obj\Debug\MyBanker.pdb
