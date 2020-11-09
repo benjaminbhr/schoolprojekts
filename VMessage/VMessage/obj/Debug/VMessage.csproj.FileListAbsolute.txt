@@ -1,0 +1,7 @@
+C:\Users\Benjamin Roesdal\source\repos\VMessage\VMessage\bin\Debug\VMessage.exe.config
+C:\Users\Benjamin Roesdal\source\repos\VMessage\VMessage\bin\Debug\VMessage.exe
+C:\Users\Benjamin Roesdal\source\repos\VMessage\VMessage\bin\Debug\VMessage.pdb
+C:\Users\Benjamin Roesdal\source\repos\VMessage\VMessage\obj\Debug\VMessage.csprojAssemblyReference.cache
+C:\Users\Benjamin Roesdal\source\repos\VMessage\VMessage\obj\Debug\VMessage.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\VMessage\VMessage\obj\Debug\VMessage.exe
+C:\Users\Benjamin Roesdal\source\repos\VMessage\VMessage\obj\Debug\VMessage.pdb

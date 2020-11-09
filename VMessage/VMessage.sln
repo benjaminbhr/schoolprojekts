@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMessage", "VMessage\VMessage.csproj", "{05D4211D-8E4E-4FAF-A464-F42FF34D54CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05D4211D-8E4E-4FAF-A464-F42FF34D54CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D4211D-8E4E-4FAF-A464-F42FF34D54CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D4211D-8E4E-4FAF-A464-F42FF34D54CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D4211D-8E4E-4FAF-A464-F42FF34D54CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B324C440-9438-4C47-AB38-8735C2E06B26}
+	EndGlobalSection
+EndGlobal
