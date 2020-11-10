@@ -1,0 +1,7 @@
+C:\Users\Benjamin Roesdal\source\repos\BirdsFlyingAroundApp\BirdsFlyingAroundApp\bin\Debug\BirdsFlyingAroundApp.exe.config
+C:\Users\Benjamin Roesdal\source\repos\BirdsFlyingAroundApp\BirdsFlyingAroundApp\bin\Debug\BirdsFlyingAroundApp.exe
+C:\Users\Benjamin Roesdal\source\repos\BirdsFlyingAroundApp\BirdsFlyingAroundApp\bin\Debug\BirdsFlyingAroundApp.pdb
+C:\Users\Benjamin Roesdal\source\repos\BirdsFlyingAroundApp\BirdsFlyingAroundApp\obj\Debug\BirdsFlyingAroundApp.csprojAssemblyReference.cache
+C:\Users\Benjamin Roesdal\source\repos\BirdsFlyingAroundApp\BirdsFlyingAroundApp\obj\Debug\BirdsFlyingAroundApp.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\BirdsFlyingAroundApp\BirdsFlyingAroundApp\obj\Debug\BirdsFlyingAroundApp.exe
+C:\Users\Benjamin Roesdal\source\repos\BirdsFlyingAroundApp\BirdsFlyingAroundApp\obj\Debug\BirdsFlyingAroundApp.pdb
