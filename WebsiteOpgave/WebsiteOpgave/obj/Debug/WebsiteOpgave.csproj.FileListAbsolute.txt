@@ -1,0 +1,7 @@
+C:\Users\Benjamin Roesdal\source\repos\WebsiteOpgave\WebsiteOpgave\bin\Debug\WebsiteOpgave.exe.config
+C:\Users\Benjamin Roesdal\source\repos\WebsiteOpgave\WebsiteOpgave\bin\Debug\WebsiteOpgave.exe
+C:\Users\Benjamin Roesdal\source\repos\WebsiteOpgave\WebsiteOpgave\bin\Debug\WebsiteOpgave.pdb
+C:\Users\Benjamin Roesdal\source\repos\WebsiteOpgave\WebsiteOpgave\obj\Debug\WebsiteOpgave.csprojAssemblyReference.cache
+C:\Users\Benjamin Roesdal\source\repos\WebsiteOpgave\WebsiteOpgave\obj\Debug\WebsiteOpgave.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\WebsiteOpgave\WebsiteOpgave\obj\Debug\WebsiteOpgave.exe
+C:\Users\Benjamin Roesdal\source\repos\WebsiteOpgave\WebsiteOpgave\obj\Debug\WebsiteOpgave.pdb
