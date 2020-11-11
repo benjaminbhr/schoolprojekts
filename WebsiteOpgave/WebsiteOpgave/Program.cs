@@ -12,8 +12,8 @@ namespace WebsiteOpgave
         {
             while (true)
             {
-                RequestManager fileRequest = new RequestManager(new FileRequest());
-                RequestManager webRequest = new RequestManager(new Webrequest());
+                RequestManager fileRequest = new RequestManager(new RequestFactory().CreateRequest(ERequestTypes.FileRequest));
+                RequestManager webRequest = new RequestManager(new RequestFactory().CreateRequest(ERequestTypes.WebRequest));
                 Console.Clear();
                 Console.WriteLine("Choose what request you want to make");
                 Console.WriteLine("[1] WebRequest");
