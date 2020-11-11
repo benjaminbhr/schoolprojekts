@@ -10,16 +10,14 @@ namespace WebsiteOpgave
     {
         private IRequest request;
 
-        public string MakeFileRequest(string path)
+        public string MakeRequest(string path)
         {
-            request = new FileRequest();
             return request.Request(path);
         }
 
-        public string MakeWebRequest(string path)
+        public RequestManager(IRequest r)
         {
-            request = new Webrequest();
-            return request.Request(path);
+            this.request = r;
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebsiteOpgave
 {
-    interface IRequest
+    public interface IRequest
     {
         string Request(string path);
     }

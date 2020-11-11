@@ -12,7 +12,8 @@ namespace WebsiteOpgave
         {
             while (true)
             {
-                RequestManager requestManager = new RequestManager();
+                RequestManager fileRequest = new RequestManager(new FileRequest());
+                RequestManager webRequest = new RequestManager(new Webrequest());
                 Console.Clear();
                 Console.WriteLine("Choose what request you want to make");
                 Console.WriteLine("[1] WebRequest");
@@ -22,13 +23,13 @@ namespace WebsiteOpgave
                     case ConsoleKey.D1:
                         Console.Clear();
                         Console.WriteLine("Please write the Website you want to request, (without Https. fx -> [google.com]");
-                        Console.WriteLine(requestManager.MakeWebRequest("https://" + Console.ReadLine()));
+                        Console.WriteLine(webRequest.MakeRequest("https://" + Console.ReadLine()));
                         ;
                         break;
                     case ConsoleKey.D2:
                         Console.Clear();
                         Console.WriteLine(@"Please insert the full file path fx -> 'C:\Users\Benjamin Roesdal\source'");
-                        Console.WriteLine(requestManager.MakeFileRequest(Console.ReadLine()));
+                        Console.WriteLine(fileRequest.MakeRequest(Console.ReadLine()));
                         break;
                 }
                 Console.ReadLine();
