@@ -1,0 +1,7 @@
+C:\Users\Benjamin\source\repos\Refactor\Refactor\bin\Debug\Refactor.exe.config
+C:\Users\Benjamin\source\repos\Refactor\Refactor\bin\Debug\Refactor.exe
+C:\Users\Benjamin\source\repos\Refactor\Refactor\bin\Debug\Refactor.pdb
+C:\Users\Benjamin\source\repos\Refactor\Refactor\obj\Debug\Refactor.csprojAssemblyReference.cache
+C:\Users\Benjamin\source\repos\Refactor\Refactor\obj\Debug\Refactor.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\source\repos\Refactor\Refactor\obj\Debug\Refactor.exe
+C:\Users\Benjamin\source\repos\Refactor\Refactor\obj\Debug\Refactor.pdb
