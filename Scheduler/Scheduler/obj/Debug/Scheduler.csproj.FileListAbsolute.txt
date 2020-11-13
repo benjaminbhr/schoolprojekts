@@ -1,0 +1,9 @@
+C:\Users\Benjamin\source\repos\Scheduler\Scheduler\obj\Debug\Scheduler.csprojAssemblyReference.cache
+C:\Users\Benjamin\source\repos\Scheduler\Scheduler\obj\Debug\Scheduler.ProjectInstaller.resources
+C:\Users\Benjamin\source\repos\Scheduler\Scheduler\obj\Debug\Scheduler.csproj.GenerateResource.cache
+C:\Users\Benjamin\source\repos\Scheduler\Scheduler\obj\Debug\Scheduler.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\source\repos\Scheduler\Scheduler\bin\Debug\Scheduler.exe.config
+C:\Users\Benjamin\source\repos\Scheduler\Scheduler\bin\Debug\Scheduler.exe
+C:\Users\Benjamin\source\repos\Scheduler\Scheduler\bin\Debug\Scheduler.pdb
+C:\Users\Benjamin\source\repos\Scheduler\Scheduler\obj\Debug\Scheduler.exe
+C:\Users\Benjamin\source\repos\Scheduler\Scheduler\obj\Debug\Scheduler.pdb
