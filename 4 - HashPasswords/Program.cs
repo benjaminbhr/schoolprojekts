@@ -7,7 +7,6 @@ namespace CryptographyInDotNet
     {
         static void Main()
         {
-            const string password = "V3ryC0mpl3xP455w0rd";
             while (true)
             {
                 Console.WriteLine("Hello");
@@ -16,6 +15,7 @@ namespace CryptographyInDotNet
                 switch (Console.ReadKey().Key)
                 {
                     case ConsoleKey.D1:
+                        Console.Clear();
                         Console.WriteLine("Please login!");
                         Console.Write("Username: ");
                         var userName = Console.ReadLine();
@@ -26,6 +26,7 @@ namespace CryptographyInDotNet
                         Console.ReadLine();
                         break;
                     case ConsoleKey.D2:
+                        Console.Clear();
                         Account account = new Account();
                         Console.Write("Username: ");
                         string usname = Console.ReadLine();

@@ -14,21 +14,23 @@ namespace CryptographyInDotNet
             try
             {
                 DBManager dbmanager = new DBManager();
-                string usersalt = dbmanager.GetPasswordSaltFromDb(username).Replace(" ", "");
+                string usersalt = dbmanager.GetPasswordSaltFromDb(username);
+                byte[] temp = Convert.FromBase64String(usersalt);
+                //Convert.ToBase64String(usersalt);
                 string userpwhashed = dbmanager.GetHashedPasswordFromDb(username).Replace(" ", "");
-                var userinputHashed = Hash.HashPasswordWithSalt(Encoding.UTF8.GetBytes(password), Encoding.UTF8.GetBytes(usersalt));
-                if (usersalt == "" && userpwhashed == "")
+                var userinputHashed = Hash.HashPasswordWithSalt(Encoding.UTF8.GetBytes(password), temp);
+                if (userinputHashed == "" && userpwhashed == "")
                 {
                     return $"Login was not successful, [{username}] does not exist";
                 }
-                // else if (userinputHashedString == userpwhashed)
-                // {
-                //     return $"Login was successful! Welcome {username}";
-                // }
-                // else
-                // {
-                //     return "Password is wrong, try again!";
-                // }
+                else if (userinputHashed == userpwhashed)
+                {
+                    return $"Login was successful! Welcome {username}";
+                }
+                else
+                {
+                    return "Password is wrong, try again!";
+                }
             }
             catch (Exception e)
             {

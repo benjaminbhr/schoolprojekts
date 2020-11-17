@@ -21,19 +21,19 @@ namespace CryptographyInDotNet
 
         private static byte[] Combine(byte[] first, byte[] second)
         {
-            var ret = new byte[first.Length + second.Length];
+            int tempi = 0;
+            byte[] finalArray = new byte[first.Length + second.Length];
             for (int i = 0; i < first.Length; i++)
             {
-                ret[i] = first[i];
+                finalArray[i] = first[i];
             }
 
             for (int i = first.Length; i < second.Length; i++)
             {
-                ret[i] = second[i];
+                finalArray[i] = second[tempi];
+                tempi++;
             }
-
-            var temp = Convert.ToBase64String(ret);
-            return ret;
+            return finalArray;
         }
 
         public static string HashPasswordWithSalt(byte[] toBeHashed, byte[] salt)
@@ -41,7 +41,7 @@ namespace CryptographyInDotNet
             using (var sha256 = SHA256.Create())
             {
                 var hash = sha256.ComputeHash(Combine(toBeHashed, salt));
-
+                //Maybe bad?
                 return Convert.ToBase64String(hash);
             }
         }

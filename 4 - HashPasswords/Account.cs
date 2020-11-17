@@ -10,10 +10,12 @@ namespace CryptographyInDotNet
     {
         public void CreateAccount(string username, string password)
         {
-            var salt = Hash.GenerateSalt();
-            var pw = Hash.HashPasswordWithSalt(Encoding.UTF8.GetBytes(password),salt);
-            DBHandler db = new DBHandler();
+            //Clean byte arr
+            byte[] salt = Hash.GenerateSalt();
             string saltString = Convert.ToBase64String(salt);
+            string pw = Hash.HashPasswordWithSalt(Encoding.UTF8.GetBytes(password),salt);
+            DBHandler db = new DBHandler();
+            //Salt ligger som base 64 string
             db.CreateAccountInDb(username,saltString,pw);
 
         }
