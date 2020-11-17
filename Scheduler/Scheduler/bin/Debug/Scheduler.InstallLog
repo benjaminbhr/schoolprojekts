@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\Benjamin\source\repos\Scheduler\Scheduler\bin\Debug\Scheduler.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Benjamin\source\repos\Scheduler\Scheduler\bin\Debug\Scheduler.InstallLog
+   assemblypath = C:\Users\Benjamin\source\repos\Scheduler\Scheduler\bin\Debug\Scheduler.exe
+Installing service Test Window Service...
+Service Test Window Service has been successfully installed.
+Creating EventLog source Test Window Service in log Application...
+Committing assembly 'C:\Users\Benjamin\source\repos\Scheduler\Scheduler\bin\Debug\Scheduler.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Benjamin\source\repos\Scheduler\Scheduler\bin\Debug\Scheduler.InstallLog
+   assemblypath = C:\Users\Benjamin\source\repos\Scheduler\Scheduler\bin\Debug\Scheduler.exe

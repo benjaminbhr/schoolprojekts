@@ -1,0 +1,6 @@
+13/11/2020 11.46.18: Test window service started
+13/11/2020 11.46.48: Timer ticked and some job has been done successfully
+13/11/2020 11.47.18: Timer ticked and some job has been done successfully
+13/11/2020 11.47.34: Test window service stopped
+13/11/2020 11.47.42: Test window service started
+13/11/2020 11.47.47: Test window service stopped
