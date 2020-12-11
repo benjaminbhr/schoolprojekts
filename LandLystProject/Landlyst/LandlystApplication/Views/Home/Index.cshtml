@@ -1,0 +1,150 @@
+﻿@model LandlystApplication.Models.Customer
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+</head>
+<div class="form-horizontal" style="margin-left: 20px">
+    <h4>Check in Date</h4>
+    <input type="text" id="testingdate" class="form-control CheckInDate testingdate" autocomplete="off">
+    <h4>Check in Date</h4>
+    <input type="text" id="testingdate" class="form-control CheckOutDate testingdate" autocomplete="off">
+
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="Bathtub" value="Bathtub">
+        <label class="form-check-label" for="inlineCheckbox1">Bathtub</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" onclick="DoubleBedcheckbox();" type="checkbox" id="DoubleBed" value="DoubleBed">
+        <label class="form-check-label" for="inlineCheckbox2">DoubleBed</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="Balcony" value="DoubleBed">
+        <label class="form-check-label" for="inlineCheckbox2">Balcony</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="Jacuzzi" value="DoubleBed">
+        <label class="form-check-label" for="inlineCheckbox2">Jacuzzi</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="Kitchen" value="DoubleBed">
+        <label class="form-check-label" for="inlineCheckbox2">Kitchen</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" onclick="TwoSingleBedcheckbox();" type="checkbox" id="TwoSingleBeds" value="DoubleBed">
+        <label class="form-check-label" for="inlineCheckbox2">Two Single Beds</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" onclick="SingleBedcheckbox();" type="checkbox" id="SingleBed" value="DoubleBed">
+        <label class="form-check-label" for="inlineCheckbox2">SingleBed</label>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input id="someButton" type="submit" value="Search" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+<div id="roomDiv">
+
+</div>
+<div id="bookingDiv">
+</div>
+<p id="testingDiv">
+
+</p>
+
+<script>
+    var roomnumValue = 0;
+    var checkinValue = 0;
+    var checkoutValue = 0;
+
+    document.getElementById("someButton").onclick = function() { myFunction() };
+
+    function myFunction() {
+        var finalfeatures = "";
+        var Bathtub = document.getElementById("Bathtub");
+        var DoubleBed = document.getElementById("DoubleBed");
+        var Balcony = document.getElementById("Balcony");
+        var Jacuzzi = document.getElementById("Jacuzzi");
+        var Kitchen = document.getElementById("Kitchen");
+        var TwoSingleBeds = document.getElementById("TwoSingleBeds");
+        var SingleBed = document.getElementById("SingleBed");
+        var url = "@Html.Raw(Url.Action("Room", "Room", new {CheckIn_Date = "CHECKINDATE", CheckOut_Date = "CHECKOUTDATE", features = "FEATURES"}))";
+        if (Bathtub.checked == true) {
+            finalfeatures += "Bathtub,";
+        }
+        if (DoubleBed.checked == true) {
+            finalfeatures += "DoubleBed,";
+        }
+        if (Balcony.checked == true) {
+            finalfeatures += "Balcony,";
+        }
+        if (Jacuzzi.checked == true) {
+            finalfeatures += "Jacuzzi,";
+        }
+        if (Kitchen.checked == true) {
+            finalfeatures += "Kitchen,";
+        }
+        if (TwoSingleBeds.checked == true) {
+            finalfeatures += "TwoSingleBeds,";
+        }
+        if (SingleBed.checked == true) {
+            finalfeatures += "SingleBed,";
+        }
+        url = url.replace("CHECKINDATE", $(".CheckInDate").val());
+        url = url.replace("CHECKOUTDATE", $(".CheckOutDate").val());
+        url = url.replace("FEATURES", finalfeatures);
+        $("#roomDiv").load(url);
+    }
+
+    function DoubleBedcheckbox() {
+        if (document.getElementById("DoubleBed").checked) {
+            document.getElementById("SingleBed").disabled = true;
+            document.getElementById("TwoSingleBeds").disabled = true;
+        }
+        if (!document.getElementById("DoubleBed").checked) {
+            document.getElementById("SingleBed").disabled = false;
+            document.getElementById("TwoSingleBeds").disabled = false;
+        }
+    }
+    function SingleBedcheckbox() {
+        if (document.getElementById("SingleBed").checked) {
+            document.getElementById("DoubleBed").disabled = true;
+            document.getElementById("TwoSingleBeds").disabled = true;
+        }
+        if (!document.getElementById("SingleBed").checked) {
+            document.getElementById("DoubleBed").disabled = false;
+            document.getElementById("TwoSingleBeds").disabled = false;
+        }
+    }
+    function TwoSingleBedcheckbox() {
+        if (document.getElementById("TwoSingleBeds").checked) {
+            document.getElementById("DoubleBed").disabled = true;
+            document.getElementById("SingleBed").disabled = true;
+        }
+        if (!document.getElementById("TwoSingleBeds").checked) {
+            document.getElementById("DoubleBed").disabled = false;
+            document.getElementById("SingleBed").disabled = false;
+        }
+    }
+    $('.testingdate').datepicker({
+        format: "yyyy-mm-dd"
+    });
+
+    document.getElementById("jsBtn").onclick = function() { bookingFunc(clicked_id) };
+
+    function bookingFunc(clicked_id) {
+        var url = "@Html.Raw(Url.Action("Booking", "Booking"))";
+        roomnumValue = clicked_id;
+        checkinValue = $(".CheckInDate").val();
+        checkoutValue = $(".CheckOutDate").val();
+        $("#bookingDiv").load(url).waiting();
+        document.getElementById("roomnumtest").textContent = "Virker det her?";
+    }
+</script>

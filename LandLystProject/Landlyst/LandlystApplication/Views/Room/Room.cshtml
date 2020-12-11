@@ -1,0 +1,58 @@
+﻿@model IEnumerable<LandlystApplication.Models.Room>
+
+@{
+    ViewBag.Title = "Room";
+}
+
+<h2>Rooms</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Room_Nr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RoomCost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Feature)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalCost)
+        </th>
+    </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Room_Nr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomCost)
+            </td>
+            @{
+                string features = "";
+                foreach (var feature in item.Feature)
+                {
+                    features += feature.Feature + ",";
+                }
+                <td>@features</td>
+            }
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalCost)
+            </td>
+
+            <td>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" id="@item.Room_Nr" value="Book Now" class="btn btn-default jsBtn" onclick="bookingFunc(this.id);" />
+                    </div>
+                </div>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<script>
+
+</script>
