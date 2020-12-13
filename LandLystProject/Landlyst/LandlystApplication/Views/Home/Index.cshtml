@@ -136,15 +136,12 @@
     $('.testingdate').datepicker({
         format: "yyyy-mm-dd"
     });
-
-    document.getElementById("jsBtn").onclick = function() { bookingFunc(clicked_id) };
-
+    
     function bookingFunc(clicked_id) {
         var url = "@Html.Raw(Url.Action("Booking", "Booking"))";
         roomnumValue = clicked_id;
         checkinValue = $(".CheckInDate").val();
         checkoutValue = $(".CheckOutDate").val();
         $("#bookingDiv").load(url).waiting();
-        document.getElementById("roomnumtest").textContent = "Virker det her?";
     }
 </script>
