@@ -1,0 +1,7 @@
+C:\Users\Benjamin\source\repos\RandomNumberOpg\RandomNumberOpg\bin\Debug\RandomNumberOpg.exe.config
+C:\Users\Benjamin\source\repos\RandomNumberOpg\RandomNumberOpg\bin\Debug\RandomNumberOpg.exe
+C:\Users\Benjamin\source\repos\RandomNumberOpg\RandomNumberOpg\bin\Debug\RandomNumberOpg.pdb
+C:\Users\Benjamin\source\repos\RandomNumberOpg\RandomNumberOpg\obj\Debug\RandomNumberOpg.csprojAssemblyReference.cache
+C:\Users\Benjamin\source\repos\RandomNumberOpg\RandomNumberOpg\obj\Debug\RandomNumberOpg.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\source\repos\RandomNumberOpg\RandomNumberOpg\obj\Debug\RandomNumberOpg.exe
+C:\Users\Benjamin\source\repos\RandomNumberOpg\RandomNumberOpg\obj\Debug\RandomNumberOpg.pdb
