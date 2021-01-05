@@ -1,0 +1,7 @@
+C:\Users\Benjamin\source\repos\Rfc2898Opg\Rfc2898Opg\bin\Debug\Rfc2898Opg.exe.config
+C:\Users\Benjamin\source\repos\Rfc2898Opg\Rfc2898Opg\bin\Debug\Rfc2898Opg.exe
+C:\Users\Benjamin\source\repos\Rfc2898Opg\Rfc2898Opg\bin\Debug\Rfc2898Opg.pdb
+C:\Users\Benjamin\source\repos\Rfc2898Opg\Rfc2898Opg\obj\Debug\Rfc2898Opg.csprojAssemblyReference.cache
+C:\Users\Benjamin\source\repos\Rfc2898Opg\Rfc2898Opg\obj\Debug\Rfc2898Opg.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\source\repos\Rfc2898Opg\Rfc2898Opg\obj\Debug\Rfc2898Opg.exe
+C:\Users\Benjamin\source\repos\Rfc2898Opg\Rfc2898Opg\obj\Debug\Rfc2898Opg.pdb
