@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsymmetricEncryption", "AsymmetricEncryption\AsymmetricEncryption.csproj", "{266F1CF9-C73A-4D5F-808F-02954E3C2628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsymmetricServer", "AsymmetricServer\AsymmetricServer.csproj", "{2671724B-B17F-45B8-942F-540041E9B442}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{266F1CF9-C73A-4D5F-808F-02954E3C2628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266F1CF9-C73A-4D5F-808F-02954E3C2628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266F1CF9-C73A-4D5F-808F-02954E3C2628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266F1CF9-C73A-4D5F-808F-02954E3C2628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2671724B-B17F-45B8-942F-540041E9B442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2671724B-B17F-45B8-942F-540041E9B442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2671724B-B17F-45B8-942F-540041E9B442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2671724B-B17F-45B8-942F-540041E9B442}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EA43319-73BF-49CE-B085-B6F41B78587C}
+	EndGlobalSection
+EndGlobal

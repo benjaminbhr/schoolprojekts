@@ -1,0 +1,7 @@
+C:\Users\Benjamin\source\repos\AsymmetricEncryption\AsymmetricServer\bin\Debug\AsymmetricServer.exe.config
+C:\Users\Benjamin\source\repos\AsymmetricEncryption\AsymmetricServer\bin\Debug\AsymmetricServer.exe
+C:\Users\Benjamin\source\repos\AsymmetricEncryption\AsymmetricServer\bin\Debug\AsymmetricServer.pdb
+C:\Users\Benjamin\source\repos\AsymmetricEncryption\AsymmetricServer\obj\Debug\AsymmetricServer.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\source\repos\AsymmetricEncryption\AsymmetricServer\obj\Debug\AsymmetricServer.exe
+C:\Users\Benjamin\source\repos\AsymmetricEncryption\AsymmetricServer\obj\Debug\AsymmetricServer.pdb
+C:\Users\Benjamin\source\repos\AsymmetricEncryption\AsymmetricServer\obj\Debug\AsymmetricServer.csprojAssemblyReference.cache
