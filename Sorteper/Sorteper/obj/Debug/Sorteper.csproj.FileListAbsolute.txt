@@ -1,0 +1,7 @@
+C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\bin\Debug\Sorteper.exe.config
+C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\bin\Debug\Sorteper.exe
+C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\bin\Debug\Sorteper.pdb
+C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\obj\Debug\Sorteper.csprojAssemblyReference.cache
+C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\obj\Debug\Sorteper.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\obj\Debug\Sorteper.exe
+C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\obj\Debug\Sorteper.pdb
