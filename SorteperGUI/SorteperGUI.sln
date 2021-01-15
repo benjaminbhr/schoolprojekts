@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SorteperGUI", "SorteperGUI\SorteperGUI.csproj", "{ED41D518-6AD4-4DDF-A1C6-702A45167A9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED41D518-6AD4-4DDF-A1C6-702A45167A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED41D518-6AD4-4DDF-A1C6-702A45167A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED41D518-6AD4-4DDF-A1C6-702A45167A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED41D518-6AD4-4DDF-A1C6-702A45167A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFA93186-7115-4516-BA8F-D94911CC979F}
+	EndGlobalSection
+EndGlobal

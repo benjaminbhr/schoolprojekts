@@ -65,9 +65,6 @@ namespace Sorteper
                 .Where(g => g.Count() > 1)
                 .Select(y => y.Key)
                 .ToList();
-
-            query.AddRange(query2);
-
             return player.Hand;
         }
 

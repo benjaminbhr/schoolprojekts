@@ -1,0 +1,15 @@
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\bin\Debug\SorteperGUI.exe.config
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\bin\Debug\SorteperGUI.exe
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\bin\Debug\SorteperGUI.pdb
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\SorteperGUI.csprojAssemblyReference.cache
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\App.g.cs
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\SorteperGUI_MarkupCompile.cache
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\SorteperGUI_MarkupCompile.lref
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\MainWindow.baml
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\SorteperGUI.g.resources
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\SorteperGUI.Properties.Resources.resources
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\SorteperGUI.csproj.GenerateResource.cache
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\SorteperGUI.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\SorteperGUI.exe
+C:\Users\Benjamin\source\repos\SorteperGUI\SorteperGUI\obj\Debug\SorteperGUI.pdb

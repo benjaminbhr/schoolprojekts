@@ -5,3 +5,10 @@ C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\obj\Debug\Sorteper.cspr
 C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\obj\Debug\Sorteper.csproj.CoreCompileInputs.cache
 C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\obj\Debug\Sorteper.exe
 C:\Users\Benjamin Roesdal\source\repos\Sorteper\Sorteper\obj\Debug\Sorteper.pdb
+C:\Users\Benjamin\Documents\GitHub\schoolprojekts\Sorteper\Sorteper\bin\Debug\Sorteper.exe.config
+C:\Users\Benjamin\Documents\GitHub\schoolprojekts\Sorteper\Sorteper\bin\Debug\Sorteper.exe
+C:\Users\Benjamin\Documents\GitHub\schoolprojekts\Sorteper\Sorteper\bin\Debug\Sorteper.pdb
+C:\Users\Benjamin\Documents\GitHub\schoolprojekts\Sorteper\Sorteper\obj\Debug\Sorteper.csprojAssemblyReference.cache
+C:\Users\Benjamin\Documents\GitHub\schoolprojekts\Sorteper\Sorteper\obj\Debug\Sorteper.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Documents\GitHub\schoolprojekts\Sorteper\Sorteper\obj\Debug\Sorteper.exe
+C:\Users\Benjamin\Documents\GitHub\schoolprojekts\Sorteper\Sorteper\obj\Debug\Sorteper.pdb

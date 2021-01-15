@@ -18,7 +18,7 @@ namespace Sorteper
             players[0] = new Player(new List<ICard>());
             players[1] = new Player(new List<ICard>());
             manager.DealCardsToPlayers(shuffleddeck,players);
-            manager.MakePair(players[0]);
+            //manager.MakePair(players[0]);
 
             Console.WriteLine("This is player 1's Hand!");
             foreach (var VARIABLE in players[0].Hand)
@@ -47,6 +47,8 @@ namespace Sorteper
                         break;
                 }
             }
+
+
             Console.ReadLine();
         }
     }
