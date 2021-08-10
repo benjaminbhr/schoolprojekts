@@ -1,0 +1,16 @@
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\bin\Debug\net5.0\WebApplication.exe
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\bin\Debug\net5.0\WebApplication.deps.json
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.json
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\bin\Debug\net5.0\WebApplication.runtimeconfig.dev.json
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\bin\Debug\net5.0\WebApplication.dll
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\bin\Debug\net5.0\ref\WebApplication.dll
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\bin\Debug\net5.0\WebApplication.pdb
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.csproj.AssemblyReference.cache
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfoInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.AssemblyInfo.cs
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.dll
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\obj\Debug\net5.0\ref\WebApplication.dll
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.pdb
+C:\Users\Benjamin Roesdal\source\repos\WebApplication\WebApplication\obj\Debug\net5.0\WebApplication.genruntimeconfig.cache
