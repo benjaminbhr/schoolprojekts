@@ -14,3 +14,19 @@ C:\Users\Benjamin Roesdal\source\repos\WebServer\WebServer\obj\Debug\net5.0\WebS
 C:\Users\Benjamin Roesdal\source\repos\WebServer\WebServer\obj\Debug\net5.0\ref\WebServer.dll
 C:\Users\Benjamin Roesdal\source\repos\WebServer\WebServer\obj\Debug\net5.0\WebServer.pdb
 C:\Users\Benjamin Roesdal\source\repos\WebServer\WebServer\obj\Debug\net5.0\WebServer.genruntimeconfig.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\bin\Debug\net5.0\WebServer.exe
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\bin\Debug\net5.0\WebServer.deps.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\bin\Debug\net5.0\WebServer.runtimeconfig.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\bin\Debug\net5.0\WebServer.runtimeconfig.dev.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\bin\Debug\net5.0\WebServer.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\bin\Debug\net5.0\ref\WebServer.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\bin\Debug\net5.0\WebServer.pdb
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\obj\Debug\net5.0\WebServer.csproj.AssemblyReference.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\obj\Debug\net5.0\WebServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\obj\Debug\net5.0\WebServer.AssemblyInfoInputs.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\obj\Debug\net5.0\WebServer.AssemblyInfo.cs
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\obj\Debug\net5.0\WebServer.csproj.CoreCompileInputs.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\obj\Debug\net5.0\WebServer.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\obj\Debug\net5.0\ref\WebServer.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\obj\Debug\net5.0\WebServer.pdb
+C:\Users\benja\Documents\GitHub\schoolprojekts\WebServer\WebServer\obj\Debug\net5.0\WebServer.genruntimeconfig.cache
