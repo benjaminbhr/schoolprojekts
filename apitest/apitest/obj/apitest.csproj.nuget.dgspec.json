@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\WebServer\\WebServer\\WebServer.csproj": {}
+    "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\apitest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\WebServer\\WebServer\\WebServer.csproj": {
+    "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\apitest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\WebServer\\WebServer\\WebServer.csproj",
-        "projectName": "WebServer",
-        "projectPath": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\WebServer\\WebServer\\WebServer.csproj",
+        "projectUniqueName": "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\apitest.csproj",
+        "projectName": "apitest",
+        "projectPath": "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\apitest.csproj",
         "packagesPath": "C:\\Users\\Benjamin Roesdal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\WebServer\\WebServer\\obj\\",
+        "outputPath": "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Benjamin Roesdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -50,6 +64,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
