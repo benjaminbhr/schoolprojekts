@@ -13,13 +13,18 @@ namespace apitest.Controllers
     [Route("api/[controller]")]
     public class ShoppingCartController : Controller
     {
-        private List<Product> Cart = new List<Product>();
-
+        /// <summary>
+        /// Adds the specified product to the Cart list in the existing session if there is one, if not, we create a new list,
+        /// and assign it to the session
+        /// </summary>
+        /// <param name="productName">Name of product</param>
+        /// <param name="productPrice">Price of product</param>
+        /// <returns>IEnumerable collection of Product</returns>
         [HttpGet]
         public IEnumerable<Product> Get(string productName,int productPrice)
         {
-            var sessionCart = HttpContext.Session.GetObjectFromJson<List<Product>>("Cart");
-            var product = new Product() { Name = productName, Price = productPrice };
+            List<Product> sessionCart = HttpContext.Session.GetObjectFromJson<List<Product>>("Cart");
+            Product product = new Product() { Name = productName, Price = productPrice };
 
             if (sessionCart != null)
             {
@@ -36,12 +41,12 @@ namespace apitest.Controllers
             return sessionCart;
         }
 
-        [HttpGet("GetShoppingCart")]
-        public IEnumerable<Product> GetShoppingCart()
-        {
-            return HttpContext.Session.GetObjectFromJson<List<Product>>("Cart");
-        }
-
+        /// <summary>
+        /// Removes the specified product from the Session collection "Cart"
+        /// </summary>
+        /// <param name="productName">Name of product to remove</param>
+        /// <param name="productPrice">Price of product to remove</param>
+        /// <returns>IEnumerable collection of session list after deletion</returns>
         [HttpDelete("DeleteItemInShoppingCart")]
         public IEnumerable<Product> GetShoppingCart(string productName,int productPrice)
         {

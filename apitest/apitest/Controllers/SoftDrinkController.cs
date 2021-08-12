@@ -12,10 +12,14 @@ namespace apitest.Controllers
     [Route("api/[controller]")]
     public class SoftDrinkController : Controller
     {
-        [HttpGet("GetFavoriteSoftDrinkCooke")]
+        /// <summary>
+        /// Gets the value from the favoriteSoda cookie from Request.
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("GetFavoriteSoftDrink")]
         public string GetFavoriteSoftDrink()
         {
-            var cookieValue = Request.Cookies["favoriteSoda"];
+            string cookieValue = Request.Cookies["favoriteSoda"];
 
             return String.IsNullOrEmpty(cookieValue) ? "No cookie found" : cookieValue;
         }
