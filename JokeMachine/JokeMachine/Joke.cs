@@ -13,7 +13,6 @@ namespace JokeMachine
 
         public Joke()
         {
-            Id++;
         }
     }
 }

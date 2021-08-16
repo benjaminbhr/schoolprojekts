@@ -26,11 +26,40 @@ namespace JokeMachine
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDistributedMemoryCache(); // Adds a default in-memory implementation of IDistributedCache
             services.AddSession();
             services.AddControllers();
+            services.AddSingleton(Configuration);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "JokeMachine", Version = "v1" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = @"Api-key to access certain jokes'",
+                    Name = "api-key",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                {
+                  new OpenApiSecurityScheme
+                  {
+                    Reference = new OpenApiReference
+                      {
+                        Type = ReferenceType.SecurityScheme,
+                        Id = "Bearer"
+                      },
+                      Scheme = "oauth2",
+                      Name = "Bearer",
+                      In = ParameterLocation.Header,
+
+                    },
+                    new List<string>()
+                  }
+                });
+
             });
         }
 

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\apitest.csproj": {}
+    "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\apitest\\apitest\\apitest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\apitest.csproj": {
+    "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\apitest\\apitest\\apitest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\apitest.csproj",
+        "projectUniqueName": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\apitest\\apitest\\apitest.csproj",
         "projectName": "apitest",
-        "projectPath": "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\apitest.csproj",
-        "packagesPath": "C:\\Users\\Benjamin Roesdal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benjamin Roesdal\\source\\repos\\apitest\\apitest\\obj\\",
+        "projectPath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\apitest\\apitest\\apitest.csproj",
+        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\apitest\\apitest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Benjamin Roesdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

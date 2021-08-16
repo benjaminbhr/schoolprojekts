@@ -1,0 +1,60 @@
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\appsettings.json
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.exe
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.deps.json
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.runtimeconfig.json
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.runtimeconfig.dev.json
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.dll
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\ref\JokeMachine.dll
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.pdb
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.csproj.AssemblyReference.cache
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.AssemblyInfoInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.AssemblyInfo.cs
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\staticwebassets\JokeMachine.StaticWebAssets.Manifest.cache
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\staticwebassets\JokeMachine.StaticWebAssets.xml
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\scopedcss\bundle\JokeMachine.styles.css
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.RazorTargetAssemblyInfo.cache
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.csproj.CopyComplete
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.dll
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\ref\JokeMachine.dll
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.pdb
+C:\Users\Benjamin Roesdal\source\repos\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.genruntimeconfig.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\appsettings.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.exe
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.deps.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.runtimeconfig.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.runtimeconfig.dev.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\ref\JokeMachine.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\JokeMachine.pdb
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.csproj.AssemblyReference.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.AssemblyInfoInputs.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.AssemblyInfo.cs
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.csproj.CoreCompileInputs.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\staticwebassets\JokeMachine.StaticWebAssets.Manifest.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\staticwebassets\JokeMachine.StaticWebAssets.xml
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\scopedcss\bundle\JokeMachine.styles.css
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.RazorTargetAssemblyInfo.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.csproj.CopyComplete
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\ref\JokeMachine.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.pdb
+C:\Users\benja\Documents\GitHub\schoolprojekts\JokeMachine\JokeMachine\obj\Debug\net5.0\JokeMachine.genruntimeconfig.cache

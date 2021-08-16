@@ -28,3 +28,33 @@ C:\Users\Benjamin Roesdal\source\repos\apitest\apitest\obj\Debug\net5.0\ref\apit
 C:\Users\Benjamin Roesdal\source\repos\apitest\apitest\obj\Debug\net5.0\apitest.pdb
 C:\Users\Benjamin Roesdal\source\repos\apitest\apitest\obj\Debug\net5.0\apitest.genruntimeconfig.cache
 C:\Users\Benjamin Roesdal\source\repos\apitest\apitest\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\appsettings.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\apitest.exe
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\apitest.deps.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\apitest.runtimeconfig.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\apitest.runtimeconfig.dev.json
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\apitest.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\ref\apitest.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\apitest.pdb
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.csproj.AssemblyReference.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.AssemblyInfoInputs.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.AssemblyInfo.cs
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.csproj.CoreCompileInputs.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\staticwebassets\apitest.StaticWebAssets.Manifest.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\staticwebassets\apitest.StaticWebAssets.xml
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\scopedcss\bundle\apitest.styles.css
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.RazorTargetAssemblyInfo.cache
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.csproj.CopyComplete
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\ref\apitest.dll
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.pdb
+C:\Users\benja\Documents\GitHub\schoolprojekts\apitest\apitest\obj\Debug\net5.0\apitest.genruntimeconfig.cache
