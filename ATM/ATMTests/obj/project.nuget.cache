@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IqIFfAYHi5cpRaswmJ5MSyuVtXa359oofJaWx7ad7HT25MfCFgsx9LUGqSTy9mRXe0C1gVNUmP5rf7M6GPF9Sg==",
+  "dgSpecHash": "yx/YRKcL8MejFHjIRUe8VO11nfIPwct94nd/hJDhIuuhirl1Ohl7uCyTcwStwh8y+Ko88dyDJPUxgb3c3VAS+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\benja\\source\\repos\\ATM\\ATMTests\\ATMTests.csproj",
+  "projectFilePath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\ATMTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benja\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\benja\\.nuget\\packages\\diffengine\\6.4.9\\diffengine.6.4.9.nupkg.sha512",

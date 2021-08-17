@@ -3202,11 +3202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benja\\source\\repos\\ATM\\ATM\\ATM.csproj",
+      "projectUniqueName": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj",
       "projectName": "ATM",
-      "projectPath": "C:\\Users\\benja\\source\\repos\\ATM\\ATM\\ATM.csproj",
+      "projectPath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj",
       "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benja\\source\\repos\\ATM\\ATM\\obj\\",
+      "outputPath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
