@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\ATMTests.csproj": {}
+    "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\ATMTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\ATMTests.csproj": {
+    "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\ATMTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\ATMTests.csproj",
+        "projectUniqueName": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\ATMTests.csproj",
         "projectName": "ATMTests",
-        "projectPath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\ATMTests.csproj",
-        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\obj\\",
+        "projectPath": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\ATMTests.csproj",
+        "packagesPath": "C:\\Users\\Benjamin Roesdal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATMTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Benjamin Roesdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj": {
-                "projectPath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj"
+              "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj": {
+                "projectPath": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj"
               }
             }
           }
@@ -51,6 +47,14 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
             },
             "NUnit": {
               "target": "Package",
@@ -84,21 +88,17 @@
         }
       }
     },
-    "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj": {
+    "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj",
+        "projectUniqueName": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj",
         "projectName": "ATM",
-        "projectPath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj",
-        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\obj\\",
+        "projectPath": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\ATM.csproj",
+        "packagesPath": "C:\\Users\\Benjamin Roesdal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Benjamin Roesdal\\Documents\\GitHub\\schoolprojekts\\ATM\\ATM\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Benjamin Roesdal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

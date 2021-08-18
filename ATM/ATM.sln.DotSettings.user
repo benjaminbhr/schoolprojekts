@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=90226d44_002D4733_002D4e58_002D8a85_002De10ae09ecebd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Withdraw_Money_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::958DA32D-24D4-4A21-8992-5445C6E44BF9::net5.0::ATMTests.BankAccountTests.Withdraw_Money_Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::958DA32D-24D4-4A21-8992-5445C6E44BF9::net5.0::ATMTests.BankAccountTests.CreateCreditCard_Should_Be_Successfull&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

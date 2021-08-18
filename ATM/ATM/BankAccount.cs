@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ATM
 {
-    public class BankAccount
+    public class BankAccount : IBankAccount
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -22,7 +22,7 @@ namespace ATM
 
         public CreditCard CreateCreditCard(string firstname,string lastname,string pincode)
         {
-            if (isPinValid(pincode))
+            if (IsPinValid(pincode))
             {
                 this.CreditCard = new CreditCard(firstname, lastname, pincode,this);
                 return CreditCard;
@@ -32,7 +32,7 @@ namespace ATM
 
         public bool WithdrawMoney(double amount)
         {
-            if (amount < AvailableAmount)
+            if (amount < AvailableAmount && amount > 0)
             {
                 AvailableAmount = AvailableAmount - amount;
                 return true;
@@ -42,11 +42,21 @@ namespace ATM
 
         public bool DepositMoney(double amount)
         {
-            AvailableAmount += amount;
-            return true;
+            if (amount > 0)
+            {
+                AvailableAmount += amount;
+                return true;
+            }
+
+            return false;
         }
 
-        public bool isPinValid(string pincode)
+        public double GetAvailableAmount()
+        {
+            return AvailableAmount;
+        }
+
+        public virtual bool IsPinValid(string pincode)
         {
             Regex rgx = new Regex("^[0-9]{4}$");
             bool isvalidpin = rgx.IsMatch(pincode);

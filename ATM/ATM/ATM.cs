@@ -22,7 +22,7 @@ namespace ATM
 
         public double ShowAmount(CreditCard card, string pincode)
         {
-            return card.BankAccount.AvailableAmount;
+            return card.BankAccount.GetAvailableAmount();
         }
     }
 }

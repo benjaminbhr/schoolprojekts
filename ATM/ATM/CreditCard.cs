@@ -14,9 +14,9 @@ namespace ATM
         public DateTime ExpiryDate { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public BankAccount BankAccount { get; set; }
+        public IBankAccount BankAccount { get; set; }
 
-        public CreditCard(string firstname,string lastname,string pincode,BankAccount bankAccount)
+        public CreditCard(string firstname,string lastname,string pincode,IBankAccount bankAccount)
         {
             this.FirstName = firstname;
             this.LastName = lastname;
