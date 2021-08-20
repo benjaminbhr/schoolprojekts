@@ -52,23 +52,23 @@ namespace ATMTests
             actual.ShouldBe(expected);
         }
 
-        [TestCase()]
+        [TestCase]
+        //This test case does not test anything specific, in the current state of this app, i found it hard to find a reason to mock anything
+        //So this is just to show some mocking
         public void CreateCreditCard_Should_Be_Successfull()
         {
+            //Here i chose to do a partial mocking of BankAccount class, I did this to be able to mock certain methods
+            //And use other methods as they were originally implemented.
             var ba = Substitute.ForPartsOf<BankAccount>("testName","testLastName");
+            //Here i mock the method (IsPinValid) to return true on any args, -- It will always return true.
             ba.Configure().IsPinValid(Arg.Any<string>()).ReturnsForAnyArgs(true);
 
+            //Here i call the CreateCreditCard with an INVALID pincode, but because i mocked the pincode validation method to always be true
+            //This method will also succeed, resulting in a credit card with pincode - weqr
             var card = ba.CreateCreditCard("testname", "testlastname", "weqr");
 
+            //Asserting the object is not null.
             card.ShouldNotBeNull();
-        }
-
-
-        public IBankAccount CreateDummyAccount()
-        {
-            var ba = Substitute.For<IBankAccount>();
-            ba.IsPinValid(Arg.Any<string>()).Returns(true);
-            return ba;
         }
 
         public BankAccount CreateAccount()

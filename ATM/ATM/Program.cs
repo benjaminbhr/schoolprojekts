@@ -7,7 +7,7 @@ namespace ATM
         static void Main(string[] args)
         {
             BankAccount account = new BankAccount("Benjamin", "Roesdal");
-            account.CreateCreditCard("Benjamin","Roesdal","1234");
+            var card = account.CreateCreditCard("Benjamin","Roesdal","1234");
             ATM atm = new ATM();
 
             while (true)
@@ -21,15 +21,15 @@ namespace ATM
                 {
                     case ConsoleKey.D1:
                         Console.WriteLine("Please enter pincode and Amount after");
-                        Console.WriteLine(atm.Withdraw(account.CreditCard, Console.ReadLine(), Int32.Parse(Console.ReadLine())));
+                        Console.WriteLine(atm.Withdraw(card, Console.ReadLine(), Int32.Parse(Console.ReadLine())));
                         break;
                     case ConsoleKey.D2:
                         Console.WriteLine("Please enter pincode and Amount after");
-                        Console.WriteLine(atm.Deposit(account.CreditCard, Console.ReadLine(), Int32.Parse(Console.ReadLine())));
+                        Console.WriteLine(atm.Deposit(card, Console.ReadLine(), Int32.Parse(Console.ReadLine())));
                         break;
                     case ConsoleKey.D3:
                         Console.WriteLine("Please enter pincode");
-                        Console.WriteLine(atm.ShowAmount(account.CreditCard, Console.ReadLine()));
+                        Console.WriteLine(atm.ShowAmount(card, Console.ReadLine()));
                         break;
                 }
                 Console.ReadLine();
