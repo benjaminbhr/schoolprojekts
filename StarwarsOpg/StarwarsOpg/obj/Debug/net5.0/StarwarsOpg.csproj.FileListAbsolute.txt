@@ -1,0 +1,16 @@
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\bin\Debug\net5.0\StarwarsOpg.exe
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\bin\Debug\net5.0\StarwarsOpg.deps.json
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\bin\Debug\net5.0\StarwarsOpg.runtimeconfig.json
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\bin\Debug\net5.0\StarwarsOpg.runtimeconfig.dev.json
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\bin\Debug\net5.0\StarwarsOpg.dll
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\bin\Debug\net5.0\ref\StarwarsOpg.dll
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\bin\Debug\net5.0\StarwarsOpg.pdb
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\obj\Debug\net5.0\StarwarsOpg.csproj.AssemblyReference.cache
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\obj\Debug\net5.0\StarwarsOpg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\obj\Debug\net5.0\StarwarsOpg.AssemblyInfoInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\obj\Debug\net5.0\StarwarsOpg.AssemblyInfo.cs
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\obj\Debug\net5.0\StarwarsOpg.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\obj\Debug\net5.0\StarwarsOpg.dll
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\obj\Debug\net5.0\ref\StarwarsOpg.dll
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\obj\Debug\net5.0\StarwarsOpg.pdb
+C:\Users\Benjamin Roesdal\source\repos\StarwarsOpg\StarwarsOpg\obj\Debug\net5.0\StarwarsOpg.genruntimeconfig.cache
