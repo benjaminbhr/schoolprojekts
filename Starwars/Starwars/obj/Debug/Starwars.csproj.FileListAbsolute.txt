@@ -1,0 +1,14 @@
+c:\users\camr\documents\visual studio 2017\Projects\Starwars\Starwars\bin\Debug\Starwars.exe.config
+c:\users\camr\documents\visual studio 2017\Projects\Starwars\Starwars\bin\Debug\Starwars.exe
+c:\users\camr\documents\visual studio 2017\Projects\Starwars\Starwars\bin\Debug\Starwars.pdb
+c:\users\camr\documents\visual studio 2017\Projects\Starwars\Starwars\obj\Debug\Starwars.csprojResolveAssemblyReference.cache
+c:\users\camr\documents\visual studio 2017\Projects\Starwars\Starwars\obj\Debug\Starwars.csproj.CoreCompileInputs.cache
+c:\users\camr\documents\visual studio 2017\Projects\Starwars\Starwars\obj\Debug\Starwars.exe
+c:\users\camr\documents\visual studio 2017\Projects\Starwars\Starwars\obj\Debug\Starwars.pdb
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts\Starwars\Starwars\bin\Debug\Starwars.exe.config
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts\Starwars\Starwars\bin\Debug\Starwars.exe
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts\Starwars\Starwars\bin\Debug\Starwars.pdb
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts\Starwars\Starwars\obj\Debug\Starwars.csproj.AssemblyReference.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts\Starwars\Starwars\obj\Debug\Starwars.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts\Starwars\Starwars\obj\Debug\Starwars.exe
+C:\Users\Benjamin Roesdal\Documents\GitHub\schoolprojekts\Starwars\Starwars\obj\Debug\Starwars.pdb
