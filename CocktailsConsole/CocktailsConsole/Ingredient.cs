@@ -4,15 +4,14 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 
 namespace CocktailsConsole
 {
-    public class IngredientBrand
+    public class Ingredient
     {
         [Key]
-        public int IngBrandId { get; set; }
-
-        public string Name { get; set; }
+        public int Id { get; set; }
+        public virtual string Name { get; set; }
+        public string Amount { get; set; }
     }
 }

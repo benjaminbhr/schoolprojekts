@@ -19,15 +19,12 @@ namespace CocktailsConsole.Migrations
                 .HasAnnotation("ProductVersion", "5.0.9")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("CocktailsConsole.AlcoholAndAmount", b =>
+            modelBuilder.Entity("CocktailsConsole.Alcohol", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int?>("AlcoholBrandAlcBrandId")
-                        .HasColumnType("int");
 
                     b.Property<string>("Amount")
                         .HasColumnType("nvarchar(max)");
@@ -35,28 +32,15 @@ namespace CocktailsConsole.Migrations
                     b.Property<int?>("CocktailId")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasIndex("AlcoholBrandAlcBrandId");
+                    b.HasKey("Id");
 
                     b.HasIndex("CocktailId");
 
-                    b.ToTable("AlcoholAndAmount");
-                });
-
-            modelBuilder.Entity("CocktailsConsole.AlcoholBrand", b =>
-                {
-                    b.Property<int>("AlcBrandId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("AlcBrandId");
-
-                    b.ToTable("Alcohols");
+                    b.ToTable("Alcohol");
                 });
 
             modelBuilder.Entity("CocktailsConsole.Cocktail", b =>
@@ -74,7 +58,7 @@ namespace CocktailsConsole.Migrations
                     b.ToTable("Cocktail");
                 });
 
-            modelBuilder.Entity("CocktailsConsole.IngredientAndAmount", b =>
+            modelBuilder.Entity("CocktailsConsole.Ingredient", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -87,57 +71,28 @@ namespace CocktailsConsole.Migrations
                     b.Property<int?>("CocktailId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("IngredientBrandIngBrandId")
-                        .HasColumnType("int");
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CocktailId");
 
-                    b.HasIndex("IngredientBrandIngBrandId");
-
-                    b.ToTable("IngredientAndAmount");
+                    b.ToTable("Ingredient");
                 });
 
-            modelBuilder.Entity("CocktailsConsole.IngredientBrand", b =>
+            modelBuilder.Entity("CocktailsConsole.Alcohol", b =>
                 {
-                    b.Property<int>("IngBrandId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("IngBrandId");
-
-                    b.ToTable("Ingredients");
-                });
-
-            modelBuilder.Entity("CocktailsConsole.AlcoholAndAmount", b =>
-                {
-                    b.HasOne("CocktailsConsole.AlcoholBrand", "AlcoholBrand")
-                        .WithMany()
-                        .HasForeignKey("AlcoholBrandAlcBrandId");
-
                     b.HasOne("CocktailsConsole.Cocktail", null)
                         .WithMany("AlcoholBrand")
                         .HasForeignKey("CocktailId");
-
-                    b.Navigation("AlcoholBrand");
                 });
 
-            modelBuilder.Entity("CocktailsConsole.IngredientAndAmount", b =>
+            modelBuilder.Entity("CocktailsConsole.Ingredient", b =>
                 {
                     b.HasOne("CocktailsConsole.Cocktail", null)
                         .WithMany("IngredientBrand")
                         .HasForeignKey("CocktailId");
-
-                    b.HasOne("CocktailsConsole.IngredientBrand", "IngredientBrand")
-                        .WithMany()
-                        .HasForeignKey("IngredientBrandIngBrandId");
-
-                    b.Navigation("IngredientBrand");
                 });
 
             modelBuilder.Entity("CocktailsConsole.Cocktail", b =>

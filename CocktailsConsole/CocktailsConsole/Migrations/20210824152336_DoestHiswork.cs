@@ -2,33 +2,48 @@
 
 namespace CocktailsConsole.Migrations
 {
-    public partial class addingThingsToContextlol : Migration
+    public partial class DoestHiswork : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Alcohols_Cocktail_CocktailId",
-                table: "Alcohols");
+            migrationBuilder.CreateTable(
+                name: "Alcohols",
+                columns: table => new
+                {
+                    AlcBrandId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Alcohols", x => x.AlcBrandId);
+                });
 
-            migrationBuilder.DropForeignKey(
-                name: "FK_Ingredients_Cocktail_CocktailId",
-                table: "Ingredients");
+            migrationBuilder.CreateTable(
+                name: "Cocktail",
+                columns: table => new
+                {
+                    CocktailId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Cocktail", x => x.CocktailId);
+                });
 
-            migrationBuilder.DropIndex(
-                name: "IX_Ingredients_CocktailId",
-                table: "Ingredients");
-
-            migrationBuilder.DropIndex(
-                name: "IX_Alcohols_CocktailId",
-                table: "Alcohols");
-
-            migrationBuilder.DropColumn(
-                name: "CocktailId",
-                table: "Ingredients");
-
-            migrationBuilder.DropColumn(
-                name: "CocktailId",
-                table: "Alcohols");
+            migrationBuilder.CreateTable(
+                name: "Ingredients",
+                columns: table => new
+                {
+                    IngBrandId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Ingredients", x => x.IngBrandId);
+                });
 
             migrationBuilder.CreateTable(
                 name: "AlcoholAndAmount",
@@ -113,43 +128,14 @@ namespace CocktailsConsole.Migrations
             migrationBuilder.DropTable(
                 name: "IngredientAndAmount");
 
-            migrationBuilder.AddColumn<int>(
-                name: "CocktailId",
-                table: "Ingredients",
-                type: "int",
-                nullable: true);
+            migrationBuilder.DropTable(
+                name: "Alcohols");
 
-            migrationBuilder.AddColumn<int>(
-                name: "CocktailId",
-                table: "Alcohols",
-                type: "int",
-                nullable: true);
+            migrationBuilder.DropTable(
+                name: "Cocktail");
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Ingredients_CocktailId",
-                table: "Ingredients",
-                column: "CocktailId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Alcohols_CocktailId",
-                table: "Alcohols",
-                column: "CocktailId");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Alcohols_Cocktail_CocktailId",
-                table: "Alcohols",
-                column: "CocktailId",
-                principalTable: "Cocktail",
-                principalColumn: "CocktailId",
-                onDelete: ReferentialAction.Restrict);
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Ingredients_Cocktail_CocktailId",
-                table: "Ingredients",
-                column: "CocktailId",
-                principalTable: "Cocktail",
-                principalColumn: "CocktailId",
-                onDelete: ReferentialAction.Restrict);
+            migrationBuilder.DropTable(
+                name: "Ingredients");
         }
     }
 }

@@ -4,14 +4,15 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace CocktailsConsole
 {
-    public class AlcoholBrand
+    public class Alcohol
     {
         [Key]
-        public int AlcBrandId { get; set; }
-        public string Name { get; set; }
+        public int Id { get; set; }
+        [Required]
+        public virtual string Name { get; set; }
+        public string Amount { get; set; }
     }
 }

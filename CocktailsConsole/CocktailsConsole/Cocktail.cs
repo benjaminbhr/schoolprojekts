@@ -20,8 +20,10 @@ namespace CocktailsConsole
         }
 
         public string Name { get; set; }
-        public virtual List<AlcoholAndAmount> AlcoholBrand { get; set; }
-        public virtual List<IngredientAndAmount> IngredientBrand { get; set; }
+        [Required]
+        public virtual List<Alcohol> AlcoholBrand { get; set; }
+        [Required]
+        public virtual List<Ingredient> IngredientBrand { get; set; }
 
 
         public Cocktail()
