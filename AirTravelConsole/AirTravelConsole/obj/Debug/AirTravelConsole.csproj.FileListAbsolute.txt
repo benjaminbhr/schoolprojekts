@@ -1,0 +1,12 @@
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\bin\Debug\AirTravelConsole.exe.config
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\bin\Debug\AirTravelConsole.exe
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\bin\Debug\AirTravelConsole.pdb
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\bin\Debug\EntityFramework.dll
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\bin\Debug\EntityFramework.xml
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\obj\Debug\AirTravelConsole.csproj.AssemblyReference.cache
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\obj\Debug\AirTravelConsole.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\obj\Debug\AirTravelConsole.csproj.CopyComplete
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\obj\Debug\AirTravelConsole.exe
+C:\Users\Benjamin Roesdal\source\repos\AirTravelConsole\AirTravelConsole\obj\Debug\AirTravelConsole.pdb

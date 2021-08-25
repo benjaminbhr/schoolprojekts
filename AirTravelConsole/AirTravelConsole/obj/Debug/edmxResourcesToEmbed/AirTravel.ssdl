@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AirTravelModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AirlineRoutes">
+    <Key>
+      <PropertyRef Name="RouteId" />
+      <PropertyRef Name="AirlineId" />
+    </Key>
+    <Property Name="RouteId" Type="int" Nullable="false" />
+    <Property Name="AirlineId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Airlines">
+    <Key>
+      <PropertyRef Name="AirlineId" />
+    </Key>
+    <Property Name="AirlineId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Airport">
+    <Key>
+      <PropertyRef Name="IATA" />
+    </Key>
+    <Property Name="IATA" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Routes">
+    <Key>
+      <PropertyRef Name="RouteId" />
+    </Key>
+    <Property Name="RouteId" Type="int" Nullable="false" />
+    <Property Name="ToAirport" Type="varchar" MaxLength="50" />
+    <Property Name="FromAirport" Type="varchar" MaxLength="50" />
+    <Property Name="Owner" Type="int" />
+  </EntityType>
+  <Association Name="FK_AirlineRoutes_Airlines">
+    <End Role="Airlines" Type="Self.Airlines" Multiplicity="1" />
+    <End Role="AirlineRoutes" Type="Self.AirlineRoutes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airlines">
+        <PropertyRef Name="AirlineId" />
+      </Principal>
+      <Dependent Role="AirlineRoutes">
+        <PropertyRef Name="AirlineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AirlineRoutes_Routes">
+    <End Role="Routes" Type="Self.Routes" Multiplicity="1" />
+    <End Role="AirlineRoutes" Type="Self.AirlineRoutes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Routes">
+        <PropertyRef Name="RouteId" />
+      </Principal>
+      <Dependent Role="AirlineRoutes">
+        <PropertyRef Name="RouteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Routes_Airlines">
+    <End Role="Airlines" Type="Self.Airlines" Multiplicity="0..1" />
+    <End Role="Routes" Type="Self.Routes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airlines">
+        <PropertyRef Name="AirlineId" />
+      </Principal>
+      <Dependent Role="Routes">
+        <PropertyRef Name="Owner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Routes_Airport">
+    <End Role="Airport" Type="Self.Airport" Multiplicity="0..1" />
+    <End Role="Routes" Type="Self.Routes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airport">
+        <PropertyRef Name="IATA" />
+      </Principal>
+      <Dependent Role="Routes">
+        <PropertyRef Name="ToAirport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Routes_Airport1">
+    <End Role="Airport" Type="Self.Airport" Multiplicity="0..1" />
+    <End Role="Routes" Type="Self.Routes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airport">
+        <PropertyRef Name="IATA" />
+      </Principal>
+      <Dependent Role="Routes">
+        <PropertyRef Name="FromAirport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AirTravelModelStoreContainer">
+    <EntitySet Name="AirlineRoutes" EntityType="Self.AirlineRoutes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Airlines" EntityType="Self.Airlines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Airport" EntityType="Self.Airport" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Routes" EntityType="Self.Routes" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AirlineRoutes_Airlines" Association="Self.FK_AirlineRoutes_Airlines">
+      <End Role="Airlines" EntitySet="Airlines" />
+      <End Role="AirlineRoutes" EntitySet="AirlineRoutes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AirlineRoutes_Routes" Association="Self.FK_AirlineRoutes_Routes">
+      <End Role="Routes" EntitySet="Routes" />
+      <End Role="AirlineRoutes" EntitySet="AirlineRoutes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Routes_Airlines" Association="Self.FK_Routes_Airlines">
+      <End Role="Airlines" EntitySet="Airlines" />
+      <End Role="Routes" EntitySet="Routes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Routes_Airport" Association="Self.FK_Routes_Airport">
+      <End Role="Airport" EntitySet="Airport" />
+      <End Role="Routes" EntitySet="Routes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Routes_Airport1" Association="Self.FK_Routes_Airport1">
+      <End Role="Airport" EntitySet="Airport" />
+      <End Role="Routes" EntitySet="Routes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

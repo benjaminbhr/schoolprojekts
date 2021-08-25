@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AirTravelModelStoreContainer" CdmEntityContainer="AirTravelEntities">
+    <EntitySetMapping Name="Airlines">
+      <EntityTypeMapping TypeName="AirTravelModel.Airline">
+        <MappingFragment StoreEntitySet="Airlines">
+          <ScalarProperty Name="AirlineId" ColumnName="AirlineId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Airports">
+      <EntityTypeMapping TypeName="AirTravelModel.Airport">
+        <MappingFragment StoreEntitySet="Airport">
+          <ScalarProperty Name="IATA" ColumnName="IATA" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Routes">
+      <EntityTypeMapping TypeName="AirTravelModel.Route">
+        <MappingFragment StoreEntitySet="Routes">
+          <ScalarProperty Name="RouteId" ColumnName="RouteId" />
+          <ScalarProperty Name="ToAirport" ColumnName="ToAirport" />
+          <ScalarProperty Name="FromAirport" ColumnName="FromAirport" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AirlineRoutes" TypeName="AirTravelModel.AirlineRoutes" StoreEntitySet="AirlineRoutes">
+      <EndProperty Name="Airlines">
+        <ScalarProperty Name="AirlineId" ColumnName="AirlineId" />
+      </EndProperty>
+      <EndProperty Name="Routes">
+        <ScalarProperty Name="RouteId" ColumnName="RouteId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
