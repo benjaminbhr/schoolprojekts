@@ -29,7 +29,7 @@ def construct_object_types(list_of_oids):
         object_types.append(hlapi.ObjectType(hlapi.ObjectIdentity(oid)))
     return object_types
 
-#used to fetch the desired data, 
+#used to fetch the desired data from the handler, 
 def fetch(handler, count):
     result = []
     for i in range(count):
