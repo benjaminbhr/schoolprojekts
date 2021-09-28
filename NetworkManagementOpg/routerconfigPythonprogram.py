@@ -9,6 +9,11 @@ from BasicConfig import *
 from InterfaceConfig import *
 from SnmpTrafficAnalyzer import *
 
+
+#This function takes textfsm as input, and then deserializes this into InterfaceObj
+#this is done to better display the interfaces in console output
+#But also to ensure syntax for further interface configuration is correct, since we then have access to fx
+#Name (Exact interface name) etc, and we can choose exactly what to show from the interface.
 def TextFSMToObject(textfsm):
     objects = []
     for x in textfsm:
@@ -16,6 +21,8 @@ def TextFSMToObject(textfsm):
         objects.append(intObj)
     return objects
 
+
+#Object for router/switch interfaces.
 class InterfaceObj():
     def __init__ (self, name,ipAdd,status,proto):
         self.name = name
@@ -52,10 +59,14 @@ def InterfaceConfiguration():
         print("Press (2) to configure an interface")
         print("Press (9) to exit")
         userInput = input()
+        #Calls the ShowAllInterfaces command, and sends the result as argument fro the TextFSMToObject function
+        #Then prints the name,ipadd,proto,status out in console.
         if userInput == "1":
             objs = TextFSMToObject(ShowAllInterfaces())
             for y in objs:
                 print(y.name,y.ipAdd,y.proto,y.status)
+        #Calls the ShowAllInterfaces command, and sends the result as argument fro the TextFSMToObject function
+        #An index number is displayed in console to let user select a specific interface to configure.
         elif userInput == "2":
             objs = TextFSMToObject(ShowAllInterfaces())
             for y in objs:

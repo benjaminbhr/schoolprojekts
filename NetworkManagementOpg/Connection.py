@@ -7,6 +7,8 @@ Created on Fri Sep 24 12:43:22 2021
 
 from netmiko import ConnectHandler
 
+
+#Creates a connection to the router using Netmiko's ConnectHandler
 def CreateConnection():
     cisco1 = {
         "device_type": "cisco_ios",

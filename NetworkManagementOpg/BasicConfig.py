@@ -7,6 +7,8 @@ Created on Fri Sep 24 12:37:36 2021
 
 from Connection import *
 
+#Configures hostname with a prepared command, which gets user input appended to it.
+#Saves config
 def ConfigureHostName():
     with CreateConnection() as net_connect:
             hostname = input("Indtast et hostname: ")
@@ -19,6 +21,9 @@ def ConfigureHostName():
             net_connect.disconnect
             return output
         
+#Configures banner motd with user input appended to the first command, the last # then gets appended after
+# user input is done, to ensure the syntax is correct
+#Saves config
 def ConfigureBannerMotd():
     with CreateConnection() as net_connect:
             banner = input("Indtast det ønskede Banner MOTD: ")
@@ -31,6 +36,9 @@ def ConfigureBannerMotd():
             net_connect.disconnect
             return output
 
+#Configures console password with user input appended to the 'password' command
+#Also sends 'login' command after password command has been entered.
+#Saves config aswell
 def ConfigureConsolePassword():
     with CreateConnection() as net_connect:
             pw = input("Indtast det ønskede Console Password: ")
